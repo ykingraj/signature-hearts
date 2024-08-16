@@ -198,10 +198,17 @@ html {
   }
   
   .product {
-    height: 100vh;
+    height: 60vh;
     background-color: cyan;
     position: relative;
     clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+  }
+
+  .product2 {
+    height: 60vh;
+    background-color: pink;
+    position: relative;
+    clip-path: polygon(0 0%, 100% 15%, 100% 100%, 0% 85%);
   }
   
   .payment {
@@ -325,7 +332,10 @@ html {
     margin-right: 10px;
     cursor: pointer;
   }
-  
+
+  .color:nth-child(1) {
+    background-color: white;
+  }
   .color:last-child {
     background-color: darkblue;
   }
